@@ -1,0 +1,11 @@
+
+
+java:S1854	"<Remove this useless assignment to local variable "everyone".(õšÑÏ8¾¼ˆÂõ1J$411d0891-ff77-46e8-ad79-070b846c83bf
+{
+java:S1854"8Remove this useless assignment to local variable "nemo".(ğøİÑ8®Ø‡Âõ1J$adfcbfb9-76e7-4b4a-903a-eea63eb3db34
+l
+java:S1481")Remove this unused "nemo" local variable.(ğøİÑ8¯Ø‡Âõ1J$5618cd85-e84c-4368-9a18-d545f2c5ed38
+p
+java:S1481	"-Remove this unused "everyone" local variable.(õšÑÏ8À¼ˆÂõ1J$0f95b9e5-a085-4ad2-95ab-0016c9934d11
+m	java:S106"+Replace this use of System.out by a logger.(Šûóª8±Ø‡Âõ1J$84ee4f77-1e14-4d50-b2c6-3b843abc1576
+m	java:S106"+Replace this use of System.out by a logger.(Ã¸§Á8±Ø‡Âõ1J$6e9d855f-b1c5-42f7-a9e8-4b227712a15c

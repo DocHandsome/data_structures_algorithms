@@ -1,0 +1,12 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ëñ…ƒıÿÿÿÿ8ÕÅÂõ1J$31f04992-035a-4b43-9f1a-bdba0709784b
+
+java:S1854	"<Remove this useless assignment to local variable "everyone".(õšÑÏ8İÅÂõ1J$05f7850c-8e8c-49af-aaf8-42d60dfb4061
+{
+java:S1854"8Remove this useless assignment to local variable "nemo".(ğøİÑ8İÅÂõ1J$4b1c4ff8-47fd-41f3-9703-1aa7cfd7ea06
+l
+java:S1481")Remove this unused "nemo" local variable.(ğøİÑ8İÅÂõ1J$748c2018-7eda-4d6d-b244-38efa075f294
+p
+java:S1481	"-Remove this unused "everyone" local variable.(õšÑÏ8ŞÅÂõ1J$0e3f16aa-758e-450e-a28e-bd311a400f7f
+m	java:S106"+Replace this use of System.out by a logger.(Šûóª8àÅÂõ1J$24a09de1-10ce-4615-9fa8-370f0ba54e0b
+m	java:S106"+Replace this use of System.out by a logger.(÷ôÉâ8áÅÂõ1J$aab29098-e995-4639-8a0e-3e1d39d80e9c
