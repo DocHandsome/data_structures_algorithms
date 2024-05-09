@@ -35,8 +35,8 @@ public class MyArray {
 
     @Nonnull
     public Object pop() {
-        final Object lastItem = this.data[this.data.length - 1];
-        this.data[this.data.length - 1] = null;
+        final Object lastItem = this.data[length - 1];
+        this.data[length - 1] = null;
         this.length--;
         return lastItem;
     }
