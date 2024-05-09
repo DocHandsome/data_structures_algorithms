@@ -13,7 +13,7 @@ public class TwoSum {
 
         for (int i = 0; i < nums.length; i++) {
             final int num = nums[i];
-            final int difference =  target - num;
+            final int difference = target - num;
             if (map.containsKey(difference)) {
                 return new int[]{map.get(difference), i};
             }
@@ -22,5 +22,4 @@ public class TwoSum {
 
         return new int[]{};
     }
-
 }
