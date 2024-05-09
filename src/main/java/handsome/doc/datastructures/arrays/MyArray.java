@@ -16,7 +16,6 @@ public class MyArray {
         this.data = new Object[1];
     }
 
-    @Nonnull
     public Object get(final int index) {
         return this.data[index];
     }
@@ -53,5 +52,9 @@ public class MyArray {
         }
         this.data[this.length - 1] = null;
         this.length--;
+    }
+
+    public int length() {
+        return this.length;
     }
 }

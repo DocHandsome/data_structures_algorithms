@@ -45,7 +45,11 @@ class MyArrayTest {
         Assertions.assertEquals("you", deleted);
         Assertions.assertEquals("hi", myArray.get(0));
         Assertions.assertEquals("!", myArray.get(1));
-        Assertions.assertEquals(null, myArray.get(2));
+        Assertions.assertNull(myArray.get(2));
     }
 
+    @Test
+    void length() {
+        Assertions.assertEquals(3, myArray.length());
+    }
 }
