@@ -17,11 +17,11 @@ public class MyArray {
     }
 
     @Nonnull
-    public Object get(int index) {
+    public Object get(final int index) {
         return this.data[index];
     }
 
-    public int push(@Nonnull Object item) {
+    public int push(@Nonnull final Object item) {
         if (this.capacity == this.length) ;
         {
             this.data = Arrays.copyOf(this.data, this.capacity * 2);
@@ -39,5 +39,20 @@ public class MyArray {
         this.data[length - 1] = null;
         this.length--;
         return lastItem;
+    }
+
+    @Nonnull
+    public Object delete(final int index) {
+        final Object item = this.data[index];
+        shiftItems(index);
+        return item;
+    }
+
+    private void shiftItems(final int index) {
+        for (int i = index; i < this.length - 1; i++) {
+            this.data[i] = this.data[i + 1];
+        }
+        this.data[this.length - 1] = null;
+        this.length--;
     }
 }

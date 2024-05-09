@@ -17,7 +17,7 @@ class MyArrayTest {
         Assertions.assertEquals("hi", myArray.get(0));
         Assertions.assertThrows(ArrayIndexOutOfBoundsException.class, () -> myArray.get(99));
     }
-    
+
     @Test
     void pop() {
         final MyArray myArray = new MyArray();
@@ -29,4 +29,6 @@ class MyArrayTest {
 
         Assertions.assertEquals("!", lastItem);
     }
+
+
 }
