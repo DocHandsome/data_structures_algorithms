@@ -28,9 +28,8 @@ public class MyArray {
             this.capacity *= 2;
         }
 
-        this.data[length] = item;
-        this.length++;
-        return this.length;
+        this.data[this.length] = item;
+        return this.length++;
     }
 
     @Nonnull
