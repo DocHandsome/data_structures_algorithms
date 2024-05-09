@@ -1,4 +1,4 @@
-package panis.marc.big_o;
+package handsome.doc.big_o;
 
 import javax.annotation.Nonnull;
 

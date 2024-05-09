@@ -1,9 +1,7 @@
-package panis.marc.datastructures.arrays;
+package handsome.doc.datastructures.arrays;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MyArrayTest {
 
@@ -15,7 +13,12 @@ class MyArrayTest {
     void push() {
         final MyArray myArray = new MyArray();
         myArray.push("hi");
-        Assertions.assertEquals("hi", myArray.get(0));
+        myArray.push("you");
+        myArray.push("!");
+
+        final Object lastItem = myArray.pop();
+
+        Assertions.assertEquals("!", lastItem);
         Assertions.assertThrows(ArrayIndexOutOfBoundsException.class, () -> myArray.get(99));
     }
 }

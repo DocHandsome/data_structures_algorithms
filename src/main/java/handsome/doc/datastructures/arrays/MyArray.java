@@ -1,4 +1,4 @@
-package panis.marc.datastructures.arrays;
+package handsome.doc.datastructures.arrays;
 
 import javax.annotation.Nonnull;
 import java.util.Arrays;
@@ -35,7 +35,7 @@ public class MyArray {
 
     @Nonnull
     public Object pop() {
-        final Object lastItem = this.data[data.length - 1];
+        final Object lastItem = this.data[this.data.length - 1];
         this.data[this.data.length - 1] = null;
         this.length--;
         return lastItem;
