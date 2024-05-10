@@ -1,4 +1,4 @@
-package handsome.doc.datastructures.arrays.leetcode;
+package handsome.doc.data_structures.arrays.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;

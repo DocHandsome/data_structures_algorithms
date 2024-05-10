@@ -1,4 +1,4 @@
-package handsome.doc.datastructures.arrays;
+package handsome.doc.data_structures.arrays;
 
 import javax.annotation.Nonnull;
 import java.util.Arrays;

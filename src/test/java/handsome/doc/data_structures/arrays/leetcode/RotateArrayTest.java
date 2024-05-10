@@ -1,9 +1,7 @@
-package handsome.doc.datastructures.arrays.leetcode;
+package handsome.doc.data_structures.arrays.leetcode;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import javax.annotation.Nonnull;
 
 class RotateArrayTest {
 

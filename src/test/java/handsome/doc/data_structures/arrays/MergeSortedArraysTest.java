@@ -1,4 +1,4 @@
-package handsome.doc.datastructures.arrays;
+package handsome.doc.data_structures.arrays;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
