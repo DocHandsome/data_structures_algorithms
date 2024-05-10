@@ -21,8 +21,7 @@ public class MyArray {
     }
 
     public int push(@Nonnull final Object item) {
-        if (this.capacity == this.length) ;
-        {
+        if (this.capacity == this.length) {
             this.data = Arrays.copyOf(this.data, this.capacity * 2);
             this.capacity *= 2;
         }

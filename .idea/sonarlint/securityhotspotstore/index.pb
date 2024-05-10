@@ -54,3 +54,7 @@ Gsrc/main/java/handsome/doc/data_structures/hash_tables/MyHashTable.java,8/5/85
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+ƒ
+Ssrc/main/java/handsome/doc/data_structures/hash_tables/FirstRecurringCharacter.java,3/8/38a39f30080713fdf6ce0ebe6746818d87dd7df5
+‡
+Wsrc/test/java/handsome/doc/data_structures/hash_tables/FirstRecurringCharacterTest.java,1/3/133882de9a87cc598e8be3b50987af5d9edb7b8e
