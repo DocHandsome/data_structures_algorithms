@@ -56,11 +56,13 @@ public class LinkedList<T> {
         final Node newNode = new Node(value);
         newNode.next = leader.next;
         leader.next = newNode;
+        this.length++;
     }
 
-    public void delete(final int index){
+    public void delete(final int index) {
         final Node leader = traverseToIndex(index - 1);
         leader.next = leader.next.next;
+        this.length--;
     }
 
     private Node traverseToIndex(final int index) {
@@ -79,7 +81,8 @@ public class LinkedList<T> {
 
         Node currentNode = this.head;
         while (currentNode != null) {
-            stringBuilder.append(currentNode.data.toString() + ", ");
+            stringBuilder.append(currentNode.data.toString())
+                    .append(", ");
             currentNode = currentNode.next;
         }
         stringBuilder.delete(stringBuilder.length() - 2, stringBuilder.length());
