@@ -66,3 +66,7 @@ w
 Gsrc/main/java/handsome/doc/data_structures/linked_lists/LinkedList.java,6/2/629c13632b51d822d76ed887f20f8362db933853
 {
 Ksrc/test/java/handsome/doc/data_structures/linked_lists/LinkedListTest.java,8/1/81b2cc94049e8f93d67c139ed89d2237be2e1bfc
+}
+Msrc/main/java/handsome/doc/data_structures/linked_lists/DoubleLinkedList.java,2/9/29d68fe172e69e2a1610c613af53b04399d61779
+
+Qsrc/test/java/handsome/doc/data_structures/linked_lists/DoubleLinkedListTest.java,e/9/e92ed2a23a7e7b71b3a9dbb7c475da5b36bb6f04
