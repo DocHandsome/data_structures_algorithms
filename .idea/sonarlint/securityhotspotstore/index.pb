@@ -58,3 +58,11 @@ Gsrc/main/java/handsome/doc/data_structures/hash_tables/MyHashTable.java,8/5/85
 Ssrc/main/java/handsome/doc/data_structures/hash_tables/FirstRecurringCharacter.java,3/8/38a39f30080713fdf6ce0ebe6746818d87dd7df5
 ‡
 Wsrc/test/java/handsome/doc/data_structures/hash_tables/FirstRecurringCharacterTest.java,1/3/133882de9a87cc598e8be3b50987af5d9edb7b8e
+u
+Esrc/main/java/handsome/doc/data_structures/arrays/ReverseAString.java,3/3/33f5ff03cb63d5a283f78cb01bc433b54a6494ba
+
+Qsrc/main/java/handsome/doc/data_structures/arrays/leetcode/ContainsDuplicate.java,6/5/65e06a3a81f3f75728e71fe70e944d40e510d5ff
+w
+Gsrc/main/java/handsome/doc/data_structures/linked_lists/LinkedList.java,6/2/629c13632b51d822d76ed887f20f8362db933853
+{
+Ksrc/test/java/handsome/doc/data_structures/linked_lists/LinkedListTest.java,8/1/81b2cc94049e8f93d67c139ed89d2237be2e1bfc

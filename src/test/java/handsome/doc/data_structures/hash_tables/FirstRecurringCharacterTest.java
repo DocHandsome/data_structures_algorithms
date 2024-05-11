@@ -20,7 +20,7 @@ class FirstRecurringCharacterTest {
 
         Assertions.assertEquals(expected, new FirstRecurringCharacter().firstRecurringCharacter(array));
     }
-    
+
     @Test
     void testCase3() {
         final int[] array = {2,3,4,5};
@@ -28,6 +28,4 @@ class FirstRecurringCharacterTest {
 
         Assertions.assertEquals(expected, new FirstRecurringCharacter().firstRecurringCharacter(array));
     }
-
-
 }
