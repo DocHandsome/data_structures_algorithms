@@ -22,5 +22,9 @@ class DoubleLinkedListTest {
 
         myLinkedList.delete(3);
         myLinkedList.printList();
+
+        myLinkedList.reverse();
+        myLinkedList.printList();
+
     }
 }

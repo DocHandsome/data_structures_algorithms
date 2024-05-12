@@ -82,6 +82,26 @@ public class DoubleLinkedList<T> {
         return currentNode;
     }
 
+    public void reverse() {
+        if (this.head.next == null) {
+            return;
+        }
+
+        Node first = this.head;
+        this.tail = first;
+        Node second = first.next;
+
+        while (second != null) {
+            Node temp = second.next;
+            second.next = first;
+            first = second;
+            second = temp;
+        }
+
+        this.head.next = null;
+        this.head = first;
+    }
+
     public void printList() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("[");
