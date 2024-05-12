@@ -44,3 +44,7 @@ s
 Csrc/main/java/handsome/doc/data_structures/stacks_queues/Stack.java,c/0/c0e7c890ca0a06829a6a17d717daa07de5eb10c9
 w
 Gsrc/test/java/handsome/doc/data_structures/stacks_queues/StackTest.java,7/f/7fbff3053d8b10873d9c0519c8ab0c63e3d03920
+s
+Csrc/main/java/handsome/doc/data_structures/stacks_queues/Queue.java,8/4/847d05cb300182aad0f2c2842a84ee643ccfa6fa
+w
+Gsrc/test/java/handsome/doc/data_structures/stacks_queues/QueueTest.java,5/4/54f259aa52890bc8fac1288ed46045e780f940fd
