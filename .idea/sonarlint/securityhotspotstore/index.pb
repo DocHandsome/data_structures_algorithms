@@ -48,3 +48,7 @@ s
 Csrc/main/java/handsome/doc/data_structures/stacks_queues/Queue.java,8/4/847d05cb300182aad0f2c2842a84ee643ccfa6fa
 w
 Gsrc/test/java/handsome/doc/data_structures/stacks_queues/QueueTest.java,5/4/54f259aa52890bc8fac1288ed46045e780f940fd
+}
+Msrc/main/java/handsome/doc/data_structures/binary_trees/BinarySearchTree.java,2/6/26cb7364022c08e5aaaa8e25659b8a3edbe4dde9
+
+Qsrc/test/java/handsome/doc/data_structures/binary_trees/BinarySearchTreeTest.java,b/9/b9c4b907c8f12d85290c6c23b3264b5c19aa9f88

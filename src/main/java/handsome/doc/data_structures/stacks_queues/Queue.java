@@ -44,6 +44,10 @@ public class Queue<T> {
             return null;
         }
 
+        if (first == last) {
+            last = null;
+        }
+
         final T data = this.first.data;
         first = this.first.next;
         length--;
