@@ -1,4 +1,4 @@
-package handsome.doc.data_structures.Graph;
+package handsome.doc.data_structures.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;
